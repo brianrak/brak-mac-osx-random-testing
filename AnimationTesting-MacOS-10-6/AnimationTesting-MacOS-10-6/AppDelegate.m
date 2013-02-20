@@ -7,6 +7,7 @@
 
 @implementation AppDelegate
 
+@synthesize window;
 @synthesize pnlBox;
 @synthesize pnlSmallBox;
 @synthesize pnlMainContainer;
@@ -57,15 +58,15 @@ BOOL boxIsVisible;
 
     if (boxIsVisible) {
         // Animate 
-        animation.fromValue = [NSNumber numberWithFloat:1.0];
-        animation.toValue = [NSNumber numberWithFloat:0.0];
+        animation.fromValue = [NSNumber numberWithFloat:1.0F];
+        animation.toValue = [NSNumber numberWithFloat:0.0F];
         
         // Set the value directly on the box afterward
         self.pnlBox.alphaValue = 0.0;
     }
     else {
-        animation.fromValue = [NSNumber numberWithFloat:0.0];
-        animation.toValue = [NSNumber numberWithFloat:1.0];
+        animation.fromValue = [NSNumber numberWithFloat:0.0F];
+        animation.toValue = [NSNumber numberWithFloat:1.0F];
         
         self.pnlBox.alphaValue = 1.0;
     }
