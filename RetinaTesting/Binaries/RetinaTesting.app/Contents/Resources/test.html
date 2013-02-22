@@ -3,9 +3,39 @@
 <head>
     
     <link href="test.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" language="javascript">
+        
+        function init() {
+            initKanjiAnimation();
+        }
+        
+        function initKanjiAnimation() {
+            
+            // Show the first frame
+            var player = document.getElementById("player");
+            player.play();
+            player.pause();
+            
+        }
+        
+        
+        function toggleVideoPlayback() {
+            
+            var player = document.getElementById("player");
+            if (player.paused) {
+                player.play();
+            }
+            else {
+                player.pause();
+            }
+            
+        }
+        
+    </script>
 
 </html>
-<body>
+<body onload="init();">
 
     <div id="content">
         
@@ -13,7 +43,9 @@
         <div><img src="bad_exclamation.png" /><img src="bad_question.png" /><img src="transformation_arrow.png" /></div>
         <div><img src="button_vocab_quiz.png" /></div>
         <div><img src="giving_politeness.png" /></div>
-        <div></div>
+        <div onclick="toggleVideoPlayback();">
+            <video src="time-toki.mp4" id="player" />
+        </div>
         
         
     </div>
