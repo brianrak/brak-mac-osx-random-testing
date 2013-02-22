@@ -25,6 +25,7 @@
 		A14341EC16D6EA2800ADB140 /* button_vocab_quiz-large.png in Resources */ = {isa = PBXBuildFile; fileRef = A14341E916D6EA2800ADB140 /* button_vocab_quiz-large.png */; };
 		A14341ED16D6EA2800ADB140 /* button_vocab_quiz-medium.png in Resources */ = {isa = PBXBuildFile; fileRef = A14341EA16D6EA2800ADB140 /* button_vocab_quiz-medium.png */; };
 		A14341EE16D6EA2800ADB140 /* button_vocab_quiz-small.png in Resources */ = {isa = PBXBuildFile; fileRef = A14341EB16D6EA2800ADB140 /* button_vocab_quiz-small.png */; };
+		A14341F116D7057200ADB140 /* time-toki.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A14341F016D7057200ADB140 /* time-toki.mp4 */; };
 		A1E9B15F16CEDE400095B78F /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E9B15E16CEDE400095B78F /* AppController.m */; };
 		A1E9B16116CEDE700095B78F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E9B16016CEDE700095B78F /* WebKit.framework */; };
 		A1E9B16316CEE29D0095B78F /* square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E9B16216CEE29D0095B78F /* square@2x.png */; };
@@ -61,6 +62,7 @@
 		A14341E916D6EA2800ADB140 /* button_vocab_quiz-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_vocab_quiz-large.png"; sourceTree = "<group>"; };
 		A14341EA16D6EA2800ADB140 /* button_vocab_quiz-medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_vocab_quiz-medium.png"; sourceTree = "<group>"; };
 		A14341EB16D6EA2800ADB140 /* button_vocab_quiz-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_vocab_quiz-small.png"; sourceTree = "<group>"; };
+		A14341F016D7057200ADB140 /* time-toki.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "time-toki.mp4"; sourceTree = "<group>"; };
 		A1E9B15D16CEDE400095B78F /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		A1E9B15E16CEDE400095B78F /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		A1E9B16016CEDE700095B78F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A14341EF16D7057200ADB140 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				A14341F016D7057200ADB140 /* time-toki.mp4 */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		A1E9B16416CF0C690095B78F /* Css */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +185,7 @@
 		A1F4778816CEDAFC009E2373 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				A14341EF16D7057200ADB140 /* Animations */,
 				A1E9B16416CF0C690095B78F /* Css */,
 				A1F4778916CEDAFC009E2373 /* Html */,
 				A1F4778B16CEDAFC009E2373 /* Images */,
@@ -298,6 +309,7 @@
 				A14341EC16D6EA2800ADB140 /* button_vocab_quiz-large.png in Resources */,
 				A14341ED16D6EA2800ADB140 /* button_vocab_quiz-medium.png in Resources */,
 				A14341EE16D6EA2800ADB140 /* button_vocab_quiz-small.png in Resources */,
+				A14341F116D7057200ADB140 /* time-toki.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
