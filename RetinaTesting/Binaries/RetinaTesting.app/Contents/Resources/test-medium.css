@@ -1,0 +1,22 @@
+body {
+    overflow-y: auto; 
+    overflow-x: hidden;
+    background-image:url('background-medium.png');
+}
+
+#content {
+    zoom:0.5;
+}
+
+.bodycopy {
+    font-size:32px;
+    font-family:Georgia;
+    color:green;
+}
+
+.square {
+    display:inline-block;
+    height:200px;
+    width:200px;
+    background-color:gray;
+}
